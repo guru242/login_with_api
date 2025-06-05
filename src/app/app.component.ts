@@ -14,7 +14,7 @@ export class AppComponent {
    name:['',[Validators.required]],
    email:['',[Validators.email,Validators.required]],
    password:['',[Validators.required,Validators.pattern('[a-zA-Z ]*')]],
-   confirmpassword:['',[Validators.required,]],
+   confirmpassword:['',[Validators.required]],
    acceptterm:['',[Validators.requiredTrue]]
     });
   }
